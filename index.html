@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ayush-Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+
+    <!-- Theme 1 -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css">
+
+    <!-- Theme 2 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-two.css"> -->
+
+    <!-- Theme 3 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <a href="./index.html"><span class="logo">Ayush Kumar</span></a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!</h4>
+                    <h2 class="hero-section__title">I'm <span>Ayush</span></h2>
+                    <p class="hero-section__desc">I am a Web Developer skilled in Frontend Technologies, such as HTML,
+                        CSS,JavaScript and React, creating interactive web experiences. I'm passionate about blending design
+                        aesthetics with functionality.</p>
+                </div>
+
+                <ul class="social-icons">
+                    <!-- Social Icons -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/ayush-kumar-27b814323/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Ayush-kr-giga" target="_blank">
+                            <i class="fa-brands fa-github"></i> 
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="hero-img">
+                <img src="assets/img/image.jpeg" alt="Ayush kumar" width="350">
+            </div>
+        </section>
+
+        <!-- About Section  -->
+        <section class="about-section" id="about">
+
+            <div class="about-img">
+                <img src="assets/img/image.jpeg" alt="Ayush kumar">
+            </div>
+
+            <div class="about-content">
+                <h4>About Me</h4>
+                <h2>I am Frontend Developer<br> <span> and Problem Solver</span></h2>
+                <p>Hello there! Ayush Kumar, a first-year student at Newton school of Technolgy,
+                    majoring in Computer
+                    Science and data Science. My academic journey has allowed me to dive deep into Web-Development and Problem solving.I am proficient with technologies like Python,HTML,CSS,JavaScript and React.Right now i am focused on working in projects and solving problems with technology.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="projects-cards">
+                <div class="projects-card-box">
+                    <div class="projects-card-box__desc">
+                        <h4>Student management system</h4>
+                        <p>A responsive web application designed to streamline student-faculty interaction. The system features two distinct dashboards — one for students and one for faculty. Faculty members can view a list of students and assign individual tasks, which are instantly reflected on the respective student’s dashboard. Built using React and Tailwind CSS, the application utilizes Context API and Local Storage to manage and persist dummy data, ensuring a smooth and dynamic user experience without the need for a backend. This project showcases efficient state management, UI responsiveness, and component-based architecture.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://student-management-system-tan.vercel.app/" target="_blank">View <i
+                                    class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <div class="projects-card-box__desc">
+                        <h4>Healthify.AI</h4>
+                        <p>Healthify.AI is a React and Tailwind CSS-based web application that provides users with personalized diet plans and health tips using generative AI (Gemini). Users input their basic health metrics—including age, height, weight, BMI, dietary preferences, and health concerns—and the app intelligently crafts a prompt which is sent to Gemini to generate tailored diet recommendations.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://healthify-ai-alpha.vercel.app/"
+                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="projects-card-box">
+
+                    <div class="projects-card-box__desc">
+                        <h4>Noise Pollution Detector</h4>
+                        <p>A browser-based real-time noise pollution detection tool that captures audio from the user's environment, analyzes its frequency data using the Web Audio API, and visually represents the noise levels on an HTML5 canvas. The visualization changes color from green to red based on loudness, and the app also calculates and displays the current decibel (dB) level. If the noise exceeds a set threshold, the system triggers a warning alert.
+                        </p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://ayush-kr-giga.github.io/Noise-Pollution-Detector/"
+                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>ME!</span></h2>
+            <form action="">
+                <div>
+                    <input type="text" name="name" placeholder="FullName" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+            </form>
+            <div class="contact__github">
+                <button class="btn">
+                    <a href="https://github.com/danielace1" target="_blank">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-buttons">
+            <button data-theme="./assets/css/style.css" class="footer__theme1 active-theme">Theme 1</button>
+            <button data-theme="./assets/css/style-two.css" class="footer__theme2">Theme 2</button>
+            <button data-theme="./assets/css/style-three.css" class="footer__theme3">Theme 3</button>
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
